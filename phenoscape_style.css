@@ -1,0 +1,17 @@
+.floatright {
+	float: right;
+}
+#container {
+	margin: auto;
+	width: 906px;
+}
+
+
+body { font-family:Arial, Helvetica, sans-serif;
+	text-align: left;
+}
+
+.logo
+{ width: 906px;
+text-align: right;
+}
