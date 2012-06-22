@@ -31,7 +31,7 @@ blockquote {
 }
 
 .submenu {
-	margin-left: 218px;
+	margin-left: 2em;
 	margin-top: 75px;
 	width: 200px;
 }
@@ -68,15 +68,16 @@ blockquote {
 	font-size: 90%;
 }
 #rightcol {
-	width: 48%;
-	margin-left: 50%;
+	width: 406px;
+        float: right;
+	/* margin-left: 50%; */
 }
 .rightcol p {
 }
 
 #leftcol {
-	width: 48%;
-	clear: right;
+	width: auto;
+	/* clear: right; */
 	float: left;
 	margin-right: 20px;
 }
@@ -90,7 +91,7 @@ blockquote {
 	margin-left: 1em;
 }
 
-	.layer {
+.layer {
 	margin: 0;
 	padding: 0;
 	}
@@ -117,4 +118,84 @@ blockquote {
 #rightcol p {
 	font-size: 90%;
 	line-height: 1.25em;
+}
+
+img#logo {
+    width: 366px;
+    height: 115px;
+}
+#banner img {
+    width: 195px;
+    height: 607px;
+    float: left;
+}
+
+@media screen and (max-width : 906px) {
+    .floatright {
+        float: none;
+    }
+    #container {
+        width: auto;
+    }
+    .submenu {
+        margin-left: 0em;
+        margin-top: 1.5em;
+    }
+    #rightcol {
+        float: none;
+        width: auto;
+        margin-left: 210px;
+        margin-right: 3em;
+    }
+    img#logo {
+        width: 100%;
+        height: auto;
+    }
+    #leftcol {
+        width: auto;
+        float: none;
+        margin-left: 210px;
+    }
+    #banner {
+        position: absolute;
+        left: 0.5em;
+        top: 0.5em;
+    }
+}
+
+@media screen and (max-width : 640px) {
+    .floatright {
+        float: none;
+    }
+    #container {
+        width: auto;
+    }
+    .submenu {
+        margin-left: 0em;
+        margin-top: 1.5em;
+    }
+    #rightcol {
+        float: none;
+        width: auto;
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+    #banner {
+        position: static;
+        margin-left: -40px;
+        margin-top: 1.5em
+    }
+    #banner img {
+        width: 97px;
+        height: auto;
+    }
+    img#logo {
+        width: 100%;
+        height: auto;
+    }
+    #leftcol {
+        width: auto;
+        float: none;
+        margin-left: 60px;
+    }
 }
