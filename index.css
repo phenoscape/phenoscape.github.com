@@ -732,7 +732,7 @@ td img {
 	background-color:#ffffff;
 	border:1px solid #ffffff;
 	width:95px;
-	height:76px;
+	height:115px;
 }
 
 .MMMIFVStyleMMMenu0416193525_3 {
@@ -778,7 +778,13 @@ td img {
 #MMMenu0416193525_3_Item_2 {
 /* Unique ID for item 2 of menu MMMenu0416193525_3 so we can set its position */
 	left:0px;
-	top:51px;
+	top:63px;
+}
+
+#MMMenu0416193525_3_Item_3 {
+/* Unique ID for item 3 of menu MMMenu0416193525_3 so we can set its position */
+	left:0px;
+	top:88px;
 }
 
 #MMMenu0416193525_3_1 {
