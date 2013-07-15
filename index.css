@@ -496,7 +496,13 @@ td img {
 #MMMenu0420120455_1_1_Item_2 {
 /* Unique ID for item 2 of menu MMMenu0420120455_1_1 so we can set its position */
 	left:0px;
-	top:70px;
+	top:52px;
+}
+
+#MMMenu0420120455_1_1_Item_3 {
+/* Unique ID for item 2 of menu MMMenu0420120455_1_1 so we can set its position */
+	left:0px;
+	top:78px;
 }
 
 .MMMenuItemSpanMMMenu0420120455_1 {
