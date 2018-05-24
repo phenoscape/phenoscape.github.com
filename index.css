@@ -283,11 +283,17 @@ td img {
 	top:26px;
 }
 
+#MMMenu0523104907_0_3_Item_2 {
+/* Unique ID for item 2 of menu MMMenu0523104907_0_3 so we can set its position */
+        left:0px;
+        top:51px;
+}
+
 #MMMenu0523104907_0_4 {
 /* This class defines things about menu MMMenu0523104907_0_4's div. */
 	position:absolute;
 	left:154px;
-	top:175px;
+	top:151px;
 	visibility:hidden;
 	background-color:#ffffff;
 	border:1px solid #ffffff;
