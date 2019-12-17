@@ -15,3 +15,10 @@ body { font-family:Arial, Helvetica, sans-serif;
 { width: 906px;
 text-align: right;
 }
+
+.footer
+{
+  margin: auto;
+  text-align: center;
+  color: #002f2d;
+}
